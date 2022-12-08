@@ -1,0 +1,260 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #5863a6;
+}
+.box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #4f515e;
+	text-align: center;
+	border-radius: 20px;
+	display; flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500 ;
+}
+
+.box p{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 300 ;
+}
+.box input[type = "text"],.box input[type = "password"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #96f18f;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition; 0.25s;
+	
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+	width: 280px;
+	border-color: #f63e3e;
+	
+	
+	
+	
+}
+
+.box input[name = "loginbutton"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #088c06;
+	padding: 14px 40px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition; 0.25s;
+	cursor: pointer;
+}
+
+
+.box input[name = "test1"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #e9e09c;
+	padding: 14px 40px;
+	width: 250px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition; 0.25s;
+	cursor: pointer;
+}
+
+.box input[name = "test2"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #e9e09c;
+	padding: 14px 40px;
+	width: 250px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition; 0.25s;
+	cursor: pointer;
+}
+
+.box input[name = "mainmenubutton"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #6ac0ba;
+	padding: 14px 40px;
+	width: 250px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition; 0.25s;
+	cursor: pointer;
+}
+
+.box input[name = "mainmenubutton2"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #6ac0ba;
+	padding: 14px 40px;
+	width: 250px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition; 0.25s;
+	cursor: pointer;
+}
+
+.box input[name = "area1"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #82e498;
+	padding: 14px 40px;
+	width: 250px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition; 0.25s;
+	cursor: pointer;
+}
+
+.box input[name = "shorter"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #82e498;
+	padding: 14px 40px;
+	width: 250px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition; 0.25s;
+	cursor: pointer;
+}
+
+.box input[name = "area2"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #e48282;
+	padding: 14px 40px;
+	width: 250px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition; 0.25s;
+	cursor: pointer;
+}
+
+.box input[name = "subject1"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #82e498;
+	padding: 14px 40px;
+	width: 250px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition; 0.25s;
+	cursor: pointer;
+}
+
+.box input[name = "subject2"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #e48282;
+	padding: 14px 40px;
+	width: 250px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition; 0.25s;
+	cursor: pointer;
+}
+
+
+.box input[name = "loginbutton"]:hover{
+	background: #088c06;
+}
+
+.box input[name = "test1"]:hover{
+	background: #e9e09c;
+}
+
+.box input[name = "test2"]:hover{
+	background: #e9e09c;
+}
+
+.box input[name = "mainmenubutton"]:hover{
+	background: #6ac0ba;
+}
+
+.box input[name = "mainmenubutton2"]:hover{
+	background: #6ac0ba;
+}
+
+.box input[name = "area1"]:hover{
+	background: #82e498;
+}
+
+.box input[name = "shorter"]:hover{
+	background: #82e498;
+}
+
+.box input[name = "area2"]:hover{
+	background: #e48282;
+}
+
+.box input[name = "subject1"]:hover{
+	background: #82e498;
+}
+
+.box input[name = "subject2"]:hover{
+	background: #e48282;
+}
+
+
+
